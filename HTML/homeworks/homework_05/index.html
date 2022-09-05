@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+          font-size: 50px;
+          color: #6E76F1;
+        }
+    
+        div {
+          margin: 0 auto;
+        }
+    
+        .form-container {
+          width: 400px;
+          padding: 20px;
+        }
+      </style>
+    
+</head>
+<body>
+    <h1 align="center">
+        Cleverland
+    </h1>
+       <h2 align="center">
+           Формы. Элементы форм
+       </h2>
+       <form action="">
+           <fieldset>
+               <legend>
+                   Данные пользователя
+               </legend>
+                  <p>
+                    Логин:
+                       <input name="Login">
+                  </p>
+                  <p>
+                    Пароль:
+                       <input type="password" name="password">
+                  </p>
+                  <p>
+                       <input type="submit" value="Вход">
+                  </p>
+           </fieldset>
+       </form>
+       <form action="">
+          <fieldset>
+            <legend>
+                Пожелания
+            </legend>
+               <p>
+                <select name="city" id="">
+                   <option value="orsha">
+                       Орша
+                   </option>
+                      <option value="homel">
+                          Гомель
+                      </option>
+                         <option value="minsk">
+                             Минск
+                         </option>
+               </select>
+            </p>
+            <p>
+                <select name="wish" id="" size="3"  multiple>
+                    <option value="car">
+                        Машина
+                    </option>
+                    <option value="house">
+                        Свой дом
+                    </option>
+                    <option value="apartment">
+                        Квартира
+                    </option>
+                    <option value="garden">
+                        Сад
+                    </option>
+                    <option value="moto">
+                        Харлей
+                    </option>
+                </select>
+            </p>
+            <p>
+                Просите что хотите <input type="text" value="что надо?" name="need">
+            </p>
+            <p><input type="checkbox" value="button" name="text"/>Текст<br>
+                <textarea name="textarea" cols="30" rows="6"></textarea>
+            </p>
+               <p>
+                <input type="submit" value="Отправить" name="submit">
+               </p>
+          </fieldset>
+       </form>
+</body>
+</html>
